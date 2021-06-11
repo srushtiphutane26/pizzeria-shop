@@ -952,13 +952,27 @@ footer .right-col{
     .recomendcol img{
         position: relative;
         top: 0;
-        left: 0;
-      
+        left: 0;      
     }
     .typePizza{
       position: absolute;
       top: 60px;
       left: 80px;
+    }
+    .recomendcol .sbutton{
+      position: relative;
+      top: 100px;
+      left: -40px;
+    }
+    .recomendcol .obutton{
+        position: relative;
+        top: 125px;
+        left: -40px;
+    }
+    .recomendcol .rbutton{
+        position: relative;
+        top: 100px;
+        left: -40px;
     }
     .recomendcol button{
         position: relative;
