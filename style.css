@@ -959,6 +959,32 @@ footer .right-col{
       top: 60px;
       left: 80px;
     }
+    
+    .recomendcol .abutton{
+      position: relative;
+      top: 60px;
+      left: -40px;
+    }
+    .recomendcol .bbutton{
+      position: relative;
+      top: 60px;
+      left: -40px;
+    }
+    .recomendcol .cbutton{
+      position: relative;
+      top: 60px;
+      left: -40px;
+    }
+    .recomendcol .dbutton{
+      position: relative;
+      top: 50px;
+      left: -40px;
+    }
+    .recomendcol .ebutton{
+      position: relative;
+      top: 50px;
+      left: -40px;
+    }
     .recomendcol .sbutton{
       position: relative;
       top: 90px;
