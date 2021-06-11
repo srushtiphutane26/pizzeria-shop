@@ -1,0 +1,1029 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.navbar{
+    width: 100%;
+    height: 12%;   
+    padding-left: 0%;
+    padding-right: 30%;    
+    overflow: hidden;
+    
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.menuicon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+nav ul li a:hover{
+    color: yellow;
+}
+
+.secondpanel {
+    background-image: url(delicious-pizza1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 80%;
+}
+
+.secondpanel p{
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+}
+
+.panelDetails h2{
+    color: #fff;
+    font-size: 50px;
+    padding-top: 100px;
+    margin: 0%;
+    text-align: center;    
+    color: bl;
+}
+
+.shop-now-btn{
+    margin-left: 650px;
+    padding: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-now-btn button{
+    border: 0;
+    line-height: 2.6;
+    padding: 0 25px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(15, 14, 14);
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(247, 67, 12);
+    letter-spacing:2px;
+    transition: 0.5s;
+}
+.shop-now-btn button:hover{
+    letter-spacing:10px;
+}
+
+.main-content{
+    margin-left: 150px;
+    margin-right: 150px;   
+    box-sizing: border-box;     
+}
+.left-panel-D{
+    height: 100%;
+    width: 60%;
+    float: left;
+    background-image: url(d-pizza-ingredients.jpg);
+    background-position: center;
+    margin-top: 10px;
+    padding: 0%;
+    
+}
+
+.right-panel-D{
+    width: 35%;
+    color: #fff;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(247, 67, 12);
+}
+
+.left-panel-D p{
+    font-size: 28px;
+}
+
+.left-panel-D h3{
+    font-weight: 400px;
+}
+
+.right-panel-D h2{
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+.right-panel-D p{
+    font-weight: 300;
+}
+
+.right-panel-D button{
+    margin-bottom: 52px;
+    border-style: hidden;
+    border-radius: 3px;
+    padding: 5px 20px;
+    text-shadow: 0.5px 1px 1.5px #000;
+}
+
+.pizza-menu .title{
+    padding-top: 300px;
+    padding-right: 100px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+}
+.pizza-menu .blod-line{
+    font-size: 25px;
+}
+
+.pizza-menu-1{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+
+.pizza-menu-1 div {
+    flex:1;
+    margin-left:10px; 
+    margin-right: 0px;
+}
+
+.pizza-menu-1 button{
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+}
+
+.pizza-menu-1 button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+
+.chicken-delux img{
+    flex: 5%;
+    padding: 0px;
+}
+
+.chicken-delux p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+}
+
+
+
+.chicken-delux-1 {
+    display: none;
+}
+.hot-stuff p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+}
+
+.small-king-special-pizza p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    
+}
+.fritou-chicken-pizza p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+}
+
+
+.hot-stuff img{
+    flex: 40%;  
+}
+
+
+.small-king-special-pizza img{
+    flex: 50%;    
+}
+
+
+.fritou-chicken-pizza img{
+    flex: 10%;    
+}
+
+
+
+.pizza-menu-2{
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.pizza-menu-2 button{
+    background-color: #000;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.pizza-menu-2 button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+
+.pizza-menu-2 div {
+    flex:1;
+    margin-left:10px;
+    margin-right: 5px;
+    margin-bottom: 100px;
+}
+
+.pepperoni-pizza img{
+    flex: 50%;
+    padding: 5px;
+    width: 200;
+    height: 206;
+    border-radius: 50%;
+}
+
+
+.pepperoni-pizza p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    margin-bottom: 2%;
+}
+
+.sLiced-pizza img{
+    flex: 40%;    
+}
+
+
+.sLiced-pizza p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+}
+
+.salami-isolated img{
+    flex: 50%;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+
+.salami-isolated p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    padding-top: 5px;
+}
+
+.oven-cooked img{
+    flex: 20%;
+}
+
+
+.oven-cooked p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+}
+
+.slider-container{
+    display: none;
+}
+
+
+.sliderContainer{
+    display:none;
+}
+
+
+.banner-1{
+    position: relative;
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+    left:100px;
+    bottom: 50px;
+}
+
+.banner-1 .banner-pizza{
+    width: 35%;
+}
+
+.color-box{
+    position: absolute;
+    right: 210px;
+    top: 80px;
+    height:100%;
+    width: 60%;
+}
+
+.color-box h3 {
+    padding-left: 10px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 3px;
+    
+}
+
+.color-box h2{
+    padding-left: 10px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 5px;
+    
+}
+
+.color-box p {
+    padding-left: 10px;
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px;
+    
+}
+/* ---------------recommend-------------------- */
+.headRecomend{
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.recomendcol{
+    flex-basis: 23%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.recomendcol:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.recomendcol img{
+    width: 50%;    
+}
+/* -------------------------customes section---------------------- */
+.customersection{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.customersection .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.customer-col{
+    flex-basis: 20%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background-color: rgb(247, 247, 247);
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.customer-col img{
+    width: 80%;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 5%;
+}
+.customer-col p{
+    font-size: 16px;
+    font-family: 'Padauk';
+}
+
+/* ------------------------------footer----------------------------- */
+footer{
+    width: 100%;
+    background-color: rgb(247, 67, 12);
+    color: white;
+    font-family: 'Nunito';
+    box-sizing: border-box;
+    display:table; 
+}
+
+footer .footer-container{
+    display: table-row;
+    align-items: center;
+}
+
+footer .footer-container .left-col{
+    display:table-cell; 
+    width:32%; 
+    padding:50px; 
+    padding-left: 150px;
+}
+
+footer .footer-container .middle-col{
+    display:table-cell; 
+    width:32%; 
+    padding:50px; 
+}
+
+footer .footer-container .right-col{
+    display:table-cell; 
+    width:32%; 
+    padding:50px; 
+}
+
+footer .left-col{
+   
+    text-align:justify; 
+}
+
+footer .middle-col{
+
+    text-align:justify;
+}
+
+footer .right-col{
+    
+    text-align:justify;
+}
+
+.left-col h2{
+    padding-bottom: 10px;
+}
+
+.middle-col h2{
+    padding-bottom: 10px;
+}
+
+.right-col h2{
+    padding-bottom: 10px;
+}
+
+.right-col .social-media .icons{
+    padding: 8px;
+}
+
+.right-col .social-media .icons a{
+    color: white;   
+}
+
+.right-text{
+    background-color: rgb(118, 118, 202);
+    text-align: center;
+    /* display: flex;
+    justify-content: center; */
+    padding: 10px;
+}
+.sliderContainer1{
+    display: none;
+}
+.mainsliderContainer{
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+
+    nav ul{
+        width: 100%;
+        background:rgb(247, 67, 12);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: black;
+        font-size: 15px;
+    }
+    
+    .menuicon{
+        width: 50px;
+        display: block;
+    }
+
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+ 
+    .secondpanel {
+        width: 100%;
+        height: 40%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+    .secondpanel p{
+        padding: 0%;
+        font-size: small;
+    }
+    .panelDetails h2{
+        font-size: 20px;
+        padding-top: 50px;
+        /* padding: 50px; */
+        text-align: center;    
+        color: rgb(253, 246, 246);
+    }
+
+    .shop-now-btn{
+        margin-left: 0%;
+    }
+
+    .shop-now-btn button{
+        border: 0;
+        /* line-height: 2.6; */
+        /* padding: 0 10px; */  
+        margin-top: 0%;      
+        margin-left: 35%;
+        margin-bottom: 500%;
+        font-size: 0.5rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgb(247, 67, 12);
+    }
+
+    
+    .main-content{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .left-panel-D{
+        width: 100%;
+        float: left;
+        /* background-color: crimson; */
+        background-image: url(d-pizza-ingredients.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        margin-top: 30px;
+        padding: 0%;
+        
+    }
+
+    .right-panel-D{
+        width: 100%;
+        color: #fff;
+        float: left;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        background-color: rgb(247, 67, 12);
+        
+    }
+
+    .left-panel-D p{
+        font-size: 15px;
+    }
+    
+    .left-panel-D h3{
+        font-size: 15px;
+    }
+    
+    .right-panel-D h2{
+        font-weight: 200;
+        margin-top: 10px;
+    }
+    
+    .right-panel-D p{
+        font-weight: 300;
+    }
+    
+    .right-panel-D button{
+        margin-bottom: 20px;
+        border-style: hidden;
+        border-radius: 3px;
+        padding: 5px 20px;
+        text-shadow: 0.5px 1px 1.5px #000;
+    }
+
+    .pizza-menu .title{
+        padding-top: 6px;
+        padding-right: 100px;
+        padding-bottom: 0px;
+        font-size: 25px;
+        font-family: 'Bebas Neue';
+        letter-spacing: 5px;
+    }
+    
+    .pizza-menu-1{
+        width: 100%;
+        display: none;
+        flex-direction: column;
+    }
+        
+
+    .pizza-menu-1 div {        
+        margin-left:50px; 
+        margin-right: 0px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .pizza-menu-1 button{
+        background-color: #000;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 50px;
+    }
+
+    .pizza-menu-1 button:hover{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .chicken-delux img{      
+        margin-left: 15px;  
+        padding: 0px;   
+        width: 80%;
+        height: 80%;    
+    }
+
+    .chicken-delux p{        
+        font-size: 20px;
+        font-family: 'Bree Serif';
+        
+    }
+
+    .hot-stuff img{
+        margin-left: 15px;  
+        width: 80%;
+        height: 80%;   
+    }
+   
+    .hot-stuff p{        
+        font-size: 20px;
+        font-family: 'Bree Serif';
+    }
+    
+    .small-king-special-pizza img{
+        margin-left: 15px;  
+        width: 80%;
+        height: 80%;  
+    }
+
+    .small-king-special-pizza p{        
+        font-size: 20px;
+        font-family: 'Bree Serif';
+        
+    }
+    
+    .fritou-chicken-pizza img{
+        margin-left: 15px;  
+        width: 85%;
+        height: 85%;   
+    }
+
+    .fritou-chicken-pizza p{        
+        font-size: 20px;
+        font-family: 'Bree Serif';
+    }
+
+        
+    .pizza-menu-2{
+        width: 100%;
+       display: none;
+       flex-direction: column;
+       margin-bottom: 10px;
+    }
+
+        
+    .pizza-menu-2 button{
+        background-color: #000;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 50px;
+    }
+
+
+    .pizza-menu-2 button:hover{
+        background-color: white;
+        color: black;
+        border-radius: 5px;
+    }
+
+
+    .pizza-menu-2 div {
+        margin-left:50px; 
+        margin-right: 0px;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .pepperoni-pizza img{
+        margin-left: 15px;  
+        width: 100%;
+        height: 100%; 
+    }
+    
+
+    .pepperoni-pizza p{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Bree Serif';       
+        padding-left: 10px;
+        margin-left: 50px;
+    }
+
+    .sLiced-pizza img{
+        margin-left: 15px;  
+        width: 100%;
+        height: 100%; 
+    }
+
+    .sLiced-pizza p{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Bree Serif';
+    }
+
+    .salami-isolated img{
+        padding: 0px;   
+        width: 100%;
+        height: 100%;  
+    }
+
+   
+    .salami-isolated p{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Bree Serif';
+        padding-top: 5px;
+    }
+
+    .oven-cooked img{
+        padding: 0px;   
+        width: 100%;
+        height: 100%; 
+    }
+
+    .oven-cooked p{
+        text-align: center;
+        font-size: 20px;
+        font-family: 'Bree Serif';
+    }
+
+    
+    .banner-1{
+        position: relative;
+        display: flex;
+        align-items: center;
+        left:10px;
+        bottom: 50px;
+    }
+
+    .banner-1 .banner-pizza{
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .color-box{
+        position: absolute;
+        right: 10px;
+        top: 400px;
+        border-radius: 20px 20px;
+        height:68%;
+        width: 100%;
+    }
+
+    .color-box h3 {
+        padding-left: 20px;
+        font-family: 'Bebas Neue';
+        letter-spacing: 5px;
+    }
+
+    .color-box h2{
+        margin-top: 0%;
+        padding-left: 20px;
+        font-family: 'Bebas Neue';
+        letter-spacing: 5px;
+        
+    }
+
+    .color-box p {
+        padding-top: 20px;
+        font-family: 'Bebas Neue';
+        letter-spacing: 1px;
+        font-weight: 4px;
+    }
+
+    
+
+    footer{
+        background-color: rgb(247, 67, 12);
+        color: white;
+        margin-top: 200px;
+        font-family: 'Nunito';
+        box-sizing: border-box;
+        display:table; 
+    }
+
+    footer .footer-container .left-col{
+        width:100%; 
+        display: flex;
+        flex-direction:row; 
+        padding-top:10px; 
+        padding-left: 50px;
+        padding-bottom:0px; 
+    }
+
+    footer .footer-container .middle-col{
+        display: flex;
+        flex-direction:row; 
+        padding-top:0px; 
+        padding-left: 50px;
+        padding-bottom: 0%;
+    }
+
+    footer .footer-container .right-col{
+        width:100%; 
+        display: flex;
+        flex-direction:row;
+        padding-top:0px; 
+        padding-left: 50px;
+        padding-bottom:0px;         
+    }
+
+
+    .left-col h2{
+        display: none;    
+    }
+
+    .middle-col h2{
+        display: none;        
+    }
+
+    .right-col h2{
+        display: none;
+        padding-bottom: 10px;
+    }
+
+    .right-col .social-media .icons{
+        padding-top: 8px;    
+    }
+
+    .right-col .social-media .icons a{
+        color: white;   
+    }
+
+    .right-text{
+        background-color: rgb(118, 118, 202);
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .slider-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        font-family: 'Padauk';
+
+    }
+    .slider-container .recomendcol{
+        border-bottom: rgb(153, 153, 153) 1px solid;
+        display: flex;
+       
+    }
+    .recomendcol img{
+        position: relative;
+        top: 0;
+        left: 0;
+      
+    }
+    .typePizza{
+      position: absolute;
+      top: 60px;
+      left: 80px;
+    }
+    .recomendcol button{
+        position: relative;
+        top: 80px;
+        right:40px;
+    }
+    .slider-container .slider h3{
+        font-size: 15px;
+        padding-left: 50px;
+        text-align: end;
+        align-items: flex-end;
+        display: inline-table;
+        flex-direction: column;
+    }
+
+    .headRecomend.row{
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .recomendcol{
+        flex-basis: 23%;
+        background-color: whitesmoke;
+        border-radius: 5px;
+        margin-bottom: 5%;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction:row ;
+        transition: 0.5s;
+    }
+    .recomendcol:hover{
+        box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    }
+
+    .recomendcol img{
+        width: 100px;
+        height: 110.675;
+        margin-left: 20px;
+    }
+    .recomendcol h3{
+        padding-left: 50px;
+        text-align: end;
+        align-items: flex-end;
+        display: inline-table;
+        flex-direction: column;
+    }
+    .recomendcol span{
+        color: rgb(88, 87, 87);
+    }
+    .headRecomend{
+        margin-top: 350px;
+        padding-bottom: 10px;
+        
+    }
+    .row{
+        flex-direction: column;
+    } 
+ 
+    .customer-col img{
+      height: 45%;
+        margin-left: 20px;
+        margin-right: 15px;
+       
+    }
+
+}
