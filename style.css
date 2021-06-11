@@ -961,7 +961,7 @@ footer .right-col{
     }
     .recomendcol .sbutton{
       position: relative;
-      top: 60px;
+      top: 90px;
       left: -40px;
     }
     .recomendcol .obutton{
@@ -976,7 +976,7 @@ footer .right-col{
     }
     .recomendcol button{
         position: relative;
-        top: 60px;
+        top: 100px;
         right:40px;
     }
     .slider-container .slider h3{
